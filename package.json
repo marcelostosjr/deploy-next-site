@@ -1,0 +1,17 @@
+{
+  "name": "deploy-next-site",
+  "version": "1.0.0",
+  "description": "demonstracao de deploy de sites utilizando o framework next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
