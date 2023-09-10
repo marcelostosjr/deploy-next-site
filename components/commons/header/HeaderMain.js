@@ -1,9 +1,9 @@
-
+import HeaderTop from "./HeaderTop"
 
 function HeaderMain(){
     return(
-        <div classMain="StyleHeader">
-            <p>cabecalho</p>
+        <div>
+            <HeaderTop/>
         </div>
     )
 }
