@@ -8,6 +8,8 @@ import Servicos from "./pages/servicos"
 import Contato from "./pages/contato"
 import Endereco from "./pages/endereco"
 
+import WhatsappBtn from './components/commons/whatsapp-btn/WhatsappBtn'
+
 import HeaderMain from "./components/commons/header/HeaderMain"
 
 function App(){
@@ -16,6 +18,7 @@ function App(){
             <header>
             <HeaderMain/>
             </header>
+            <WhatsappBtn/>
             
         </div>
 

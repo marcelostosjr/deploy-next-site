@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin: 20px auto;
+    top: 0;
+    left: 0;
+  
+  }
+  
+  .elemento1 {
+    width: 500px;
+    background-color: #c6c6c6;
+  
+  }
+  
+  .elemento2 {
+    height: 500px;
+    width: 1000px;
+    background-color: black;
+  
+  }

@@ -1,0 +1,33 @@
+.PainelBase {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    opacity: 0.8;
+    
+
+
+}
+
+.PainelShadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    opacity: 0.3;
+}
+
+.ImgFachada {
+
+    width: 100%; /* Largura desejada */
+    height: 650px; /* Altura desejada */
+}
