@@ -1,0 +1,69 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #C41230, #800000);
+    top:40px;
+    left: 0px;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+.navbar.scrolling {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #C41230, #800000);
+    top:0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.logo {
+    position: absolute;
+    width: 180px; /* Largura da logo */
+    height: auto; /* Altura automática para manter a proporção */
+    left: 50px;
+}
+
+/* Adicione estas regras ao seu arquivo de estilos (por exemplo, styles.css) */
+
+.itensNavbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    right: 50px;
+    font-size: 18px;
+
+    
+  }
+  
+  /* Estilos opcionais para os links */
+  .itensNavbar ul {
+    display: flex;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    justify-content: space-between;
+  }
+  
+  .itensNavbar li {
+    display: flex;
+    margin: 0 10px; /* Espaçamento horizontal entre os itens */
+    justify-content: space-between;
+  }
+  
+  .itensNavbar a {
+    display: flex;
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+
+  }
+  
+  /* Estilos para links quando hover (passar o mouse) */
+  .itensNavbar a:hover {
+    color: #333; /* Cor do texto quando hover */
+    background-color: #fff;
+    opacity: 0.8;
+    height: 50px;
+  }
+
