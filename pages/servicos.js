@@ -1,6 +1,12 @@
+import HeaderMain from "../components/commons/header/HeaderMain"
+
 function servicos(){
     return(
-        <h1>servicos</h1>
+        <div>
+            <HeaderMain/>
+            <h1>servicos</h1>
+        </div>
+        
     )
 }
 

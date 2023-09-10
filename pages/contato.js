@@ -1,6 +1,11 @@
+import HeaderMain from "../components/commons/header/HeaderMain"
+
 function contato(){
     return(
-        <h1>contato</h1>
+        <div>
+            <HeaderMain/>
+            <h1>contato</h1>
+        </div>
     )
 }
 

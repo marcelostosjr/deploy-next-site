@@ -1,6 +1,11 @@
+import HeaderMain from "../components/commons/header/HeaderMain"
+
 function empresa(){
     return(
-        <h1>empresa</h1>
+        <div>
+            <HeaderMain/>
+            <h1>empresa</h1>
+        </div>
     )
 }
 

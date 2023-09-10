@@ -1,6 +1,12 @@
+import HeaderMain from "../components/commons/header/HeaderMain"
+
 function equipe(){
     return(
-        <h1>equipe</h1>
+        <div>
+            <HeaderMain/>
+            <h1>equipe</h1>
+        </div>
+    
     )
 }
 
