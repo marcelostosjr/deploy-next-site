@@ -1,23 +1,28 @@
 import HeaderMain from "../components/commons/header/HeaderMain"
 import styles from "./endereco.module.css"
 
-import PainelFachada from "../components/endereco/PainelFachada"
+
 import DadosEndereco from "../components/endereco/DadosEndereco"
 import TracarRotaBottom from "../components/endereco/TracarRotaBottom"
 import Mapa from "../components/endereco/Mapa"
-import GlobalStyles from "../App.module.css"
+import Painel from "../components/endereco/Painel"
+
 
 import WhatsappBtn from '../components/commons/whatsapp-btn/WhatsappBtn'
 
 function endereco(){
     return(
-        <div>
-            <div className={GlobalStyles.header}>
+        <div className={styles.body}>
+
+            <div className={styles.top}>
             <HeaderMain/>
+
             </div>
-            <div>
-                <PainelFachada/>
-            </div>
+
+            <Painel/>
+
+
+
             <div className={styles.container}>
                 <div className={styles.elemento1}>
                 <DadosEndereco/>
@@ -28,7 +33,13 @@ function endereco(){
                 </div>
             </div>
 
+
+
             <WhatsappBtn/>
+
+
+
+
 
         </div>
 

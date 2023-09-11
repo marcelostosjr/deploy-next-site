@@ -1,5 +1,6 @@
 import React from 'react';
 import App from '../App'
+import styles from "./index.module.css"
 
 
 
@@ -7,7 +8,7 @@ import App from '../App'
 
 function Home(){
     return(
-        <div>
+        <div className={styles.body}>
             <App/>
         </div>
     )
