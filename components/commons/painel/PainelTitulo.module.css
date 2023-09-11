@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 650px;
+    height: 550px;
     background-color: #000;
     color: white;
     padding: 0;
@@ -19,11 +19,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 650px;
+    height: 550px;
     background-color: #000;
     color: white;
     padding: 0px 0;
     opacity: 0.3;
+    z-index: 9998;
     
 }
 
@@ -32,5 +33,17 @@
     top: 0;
     left: 0;
     width: 100%; /* Largura desejada */
-    height: 650px; /* Altura desejada */
+    height: 550px; /* Altura desejada */
+    z-index: 9997;
+}
+
+.Titulo {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 9999;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px #333;
 }

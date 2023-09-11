@@ -1,22 +1,28 @@
 .navbar {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 80px;
     background: linear-gradient(to bottom, #C41230, #800000);
     top:40px;
     left: 0px;
     justify-content: center;
+    
     transition: 0.8s;
 }
 
 .navbar.scrolling {
-    position: fixed;
-    width: 100%;
-    height: 50px;
+    
+    height: 80px;
     background: linear-gradient(to bottom, #C41230, #800000);
-    top:0px;
-    left: 0px;
-    z-index: 9999;
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Isso pode variar dependendo do contexto */
+    /* Outros estilos, como fundo, cor, margem, etc., conforme necessário */
+
 }
 
 .logo {
@@ -33,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     right: 50px;
+    height: 80px;
     font-size: 18px;
 
     

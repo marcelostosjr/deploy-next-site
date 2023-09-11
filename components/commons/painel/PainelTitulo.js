@@ -6,7 +6,7 @@ function PainelTitulo(){
         <div className={styles.PainelBase}>
             <div className={styles.PainelShadow}></div>
             <img src="/img/fachada_loja.jpg" alt="ImgFachada" className={styles.ImgFachada}/>
-            <h1> Contatos </h1>
+            <h1 className={styles.Titulo}> Contatos </h1>
         </div>
 
     )

@@ -1,4 +1,6 @@
 import styles from "./CaixasContato.module.css"
+import {AiOutlineMail, AiTwotonePhone} from 'react-icons/ai'
+import { BsFillTelephoneFill, BsTools } from "react-icons/bs";
 
 
 const FONE_OFICINA = "(62) 9 9667-2138"
@@ -16,27 +18,33 @@ function CaixasContato(){
         <div className={styles.container}>
 
             <div className={styles.elemento}>
-                <h1 className={styles.titulo}> Oficina </h1>
-                <p> {TXT_OFICINA} </p>
+                <h1 className={styles.titulo}> <BsTools/> Oficina </h1>
+                <div className={styles.texto}> 
+                {TXT_OFICINA} 
+                </div>
                 <div className={styles.fones}>
-                    {FONE_OFICINA}
+                    <BsFillTelephoneFill/>  {FONE_OFICINA}
                 </div>
 
             </div>
 
             <div className={styles.elemento}>
                 <h1 className={styles.titulo}> Vendas </h1>
-                <p> {TXT_VENDAS} </p>
+                <div className={styles.texto}> 
+                {TXT_VENDAS} 
+                </div>
                 <div className={styles.fones}>
-                    {FONE_VENDAS}
+                <BsFillTelephoneFill/>  {FONE_VENDAS}
                 </div>
             </div>
 
             <div className={styles.elemento}>
                 <h1 className={styles.titulo}> Financeiro </h1>
-                <p> {TXT_FINANCEIRO} </p>
+                <div className={styles.texto}> 
+                {TXT_FINANCEIRO} 
+                </div>
                 <div className={styles.fones}>
-                    {FONE_FINANCEIRO}
+                <BsFillTelephoneFill/>  {FONE_FINANCEIRO}
                 </div>
             </div>
         </div>

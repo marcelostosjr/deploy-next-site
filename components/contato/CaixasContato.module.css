@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     width: 1350px;
     height: 500px;
-    gap: 50px;
+    gap: 100px;
     margin: 0px auto;
 
     justify-content: center;
@@ -14,13 +14,14 @@
 
 
 
+
 }
 
 .elemento {
     position: relative;
     height: 500px;
-    width: 400px;
-    background-color: #c6c6c6;
+    width: 350px;
+
 }
 
 .fones {
@@ -31,15 +32,25 @@
     font-weight: bold;
     color: #C41230;
     margin-bottom: 0;
+    font-family:'Franklin Gothic';
     
 
 }
 
 .titulo {
     position: fixed;
-    text-align: center;
+    text-align:right;
     position: relative;
-    font-size: 35px;
+    font-size: 60px;
     font-weight: bold;
     color: #C41230;
+}
+
+.texto {
+    top: 20px;
+    height: 300px;
+    font-size: 28px;
+    text-align:justify;
+    font-family:'Franklin Gothic';
+    color: #333;
 }
