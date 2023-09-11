@@ -33,16 +33,9 @@ function endereco(){
                 </div>
             </div>
 
-
-
             <WhatsappBtn/>
 
-
-
-
-
         </div>
-
     )
 }
 
